@@ -1,0 +1,292 @@
+########################## hero area ##########################
+hero:
+  title : "We are ThinkHeart"
+
+  # animated text loop
+  occupations:
+    - "Logo Designer"
+    - "Graphic Designer"
+    - "Print Designer"
+    - "Web Developer"
+
+  # slider background image loop
+  slider_image:
+    - "images/slider/slider-1.jpg"
+    - "images/slider/slider-2.jpg"
+    - "images/slider/slider-3.jpg"
+
+  # button
+  button:
+    enable : true
+    label : "Hire Us"
+    link : "#contact"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/backgrounds/full-nav-bg.jpg"
+  first_name : "ThinkHeart"
+  last_name : "Design"
+  
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/portrait.jpg"
+  title : "Know More <br> About ThinkHeart"
+  content : "It's Martin Shephered. The CEO of ThinkHeart Design. Welcome to our Design firm. \n 
+  
+A little about us.\n
+  
+  Daily we capture memories through 
+  our lens and design artworks that are thrilling to look at. We are a professional Graphic Design firm. \n 
+  At ThinkHeart we are commited to designs that breathe life. We are here to help you achieve your business goals.
+  We can help you to describe yourself in the best way.
+    </br>No matter how difficult your design seems, we will find an easy
+     way and complete your work anyway. Stay connected with us....😊"
+  # button
+  button:
+    enable : true
+    label : "DOWNLOAD MY CV"
+    link : "#" # you can put your cv in static folder and give the path here.
+
+###########################3 Experience ##############################
+experience:
+  enable : true
+  title : "EXPERIENCE"
+  experience_list:
+    # experience item loop
+    - name : "Digital Marketer"
+      company : "Starehe Hotel"
+      duration : "2019-2020"
+      content : "I help businesses get online and reach more customers through insightful design"
+      
+    # experience item loop
+    - name : "Graphic Designer"
+      company : "Eyedealfinancial.com"
+      duration : "2019-2020"
+      content : "Graphic design is art with a purpose. I love illustration, so logo design is my favorite work. But I can do many things with graphics."
+      
+    # experience item loop
+    - name : "Print Designer"
+      company : "FriendsWhoWrite.co.ke"
+      duration : "2016-Present"
+      content : "As experts in print design, we help enterprises stand out by designing prints that sell their brand."
+
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "SKILL"
+  skill_list:
+    # skill item loop
+    - name : "Typography"
+      parcentage : "96%"
+      
+    # skill item loop
+    - name : "Photoshop"
+      parcentage : "97%"
+      
+    # skill item loop
+    - name : "Design Thinking"
+      parcentage : "99%"
+      
+    # skill item loop
+    - name : "Graphic Design"
+      parcentage : "98%"
+
+
+################################### Service ##############################3
+service:
+  enable : true
+  title : "SERVICES"
+  service_list:
+    # service item loop
+    - name : "Advertising & Branding"
+      image : "images/icons/web-development.png"
+      
+    # service item loop
+    - name : "Print Design"
+      image : "images/icons/graphic-design.png"
+      
+    # service item loop
+    - name : "Package Design"
+      image : "images/icons/dbms.png"
+      
+    # service item loop
+    - name : "Page Layout"
+      image : "images/icons/software-development.png"
+      
+    # service item loop
+    - name : "Logo Design"
+      image : "images/icons/marketing.png"
+      
+    # service item loop
+    - name : "Photoshop Design"
+      image : "images/icons/mobile-app.png"
+
+
+############################## call to action #########################
+call_to_action:
+  enable : true
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "NEED A SERVICE?"
+  button:
+    enable : true
+    label : "SAY HELLO!"
+    link : "#contact"
+
+
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "Portfolio"
+  portfolio_list:
+    # portfolio item loop
+    - name : "Magazine"
+      image : "images/portfolio/magazine.png"
+      date : "March 2017"
+      category : "Logo Designs"
+      
+    # portfolio item loop
+    - name : "Project <br> Title" 
+      image : "images/portfolio/apron.png"
+      date : "Feb 2018"
+      category : "Logo Designs"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/billboard.png"
+      date : "Feb 2018"
+      category : "Logo Designs"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/business logo.png"
+      date : "Feb 2018"
+      category : "Logo Designs"
+      
+    # portfolio item loop
+    - name : "Bus-stop"
+      image : "images/portfolio/bus-stop-poster-01.png"
+      date : "Feb 2018"
+      category : "Logo Designs"
+      
+    # portfolio item loop
+    - name : "Project <br> milk can"
+      image : "images/portfolio/fresh-milk.png"
+      date : "Feb 2018"
+      category : "Logo Designs"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/fresh-milk.png"
+      date : "Feb 2018"
+      category : "Interior designs"
+      
+    # portfolio item loop
+    - name : "water"
+      image : "images/portfolio/water.png"
+      date : "Feb 2018"
+      category : "Interior designs"
+      
+    # portfolio item loop
+    - name : "Banner"
+      image : "images/portfolio/rollup-banner.png"
+      date : "Feb 2018"
+      category : "Fashion Designs"
+      
+    # portfolio item loop
+    - name : "Mug design"
+      image : "images/portfolio/mug-3.1.png"
+      date : "Feb 2018"
+      category : "Fashion Designs"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/photo2.jpeg"
+      date : "Feb 2018"
+      category : "Fashion Designs"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/photo2.jpeg"
+      date : "Feb 2020"
+      category : "Interior designs"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/calendar.jpg"
+      date : "Feb 2018"
+      category : "Interior designs"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/calendar.jpg"
+      date : "Feb 2018"
+      category : "Interior designs"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/calendar.jpg"
+      date : "Feb 2018"
+      category : "Interior designs"
+
+
+################################# Testimonial #########################33
+testimonial:
+  enable : true
+  title : "TESTIMONIALS"
+  testimonial_slider:
+    # slider item loop
+    - name : "John Wakahiu"
+      image : "images/clients/client1.jpg"
+      designation : "CEO, FriendsWhoWrite"
+      content : "We are pleased to work with ThinkHeart as a go-to solution for all our designs. 
+      No other company captures our thoughts as precisely as ThinkHeart. Ooh, and their prices are arguably the best."
+                
+    # slider item loop
+    - name : "Peter Parker"
+      image : "images/clients/client2.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+                
+    # slider item loop
+    - name : "Jessica Jones"
+      image : "images/clients/client3.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+
+
+######################### funfacts #############################3
+funfacts:
+  enable : true
+  funfacts_list:
+    # funfacts item loop
+    - name : "HANDS TO WORK"
+      image : "images/icons/works.png"
+      count : "10"
+      
+    # funfacts item loop
+    - name : "HAPPY CLIENTS"
+      image : "images/icons/happy.png"
+      count : "20"
+      
+    # funfacts item loop
+    - name : "FINISHED PROJECT"
+      image : "images/icons/project.png"
+      count : "25"
+      
+    # funfacts item loop
+    - name : "CUPS OF COFFEE"
+      image : "images/icons/coffee.png"
+      count : "15"
+
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "SAY HELLO!"
