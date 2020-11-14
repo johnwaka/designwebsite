@@ -11,10 +11,9 @@ hero:
 
   # slider background image loop
   slider_image:
-    - "images/slider/slider-1.jpg"
+    - "images/slider/full-nav-bg.jpeg"
     - "images/slider/slider-2.jpg"
-    - "images/slider/slider-3.jpg"
-
+    
   # button
   button:
     enable : true
@@ -25,7 +24,7 @@ hero:
 ####################### Full screen navigation #####################
 fullscreen_nav:
   enable : true
-  bg_image : "images/backgrounds/full-nav-bg.jpg"
+  bg_image : "images/slider/full-nav-bg.jpeg"
   first_name : "ThinkHeart"
   last_name : "Design"
   
@@ -71,7 +70,13 @@ experience:
     # experience item loop
     - name : "Print Designer"
       company : "FriendsWhoWrite.co.ke"
-      duration : "2016-Present"
+      duration : "2016-2019"
+      content : "As experts in print design, we help enterprises stand out by designing prints that sell their brand."
+
+    # experience item loop
+    - name : "Design Assistant"
+      company : "Twyford Ceramics Company Limited"
+      duration : "2020-Present"
       content : "As experts in print design, we help enterprises stand out by designing prints that sell their brand."
 
 
@@ -241,24 +246,22 @@ testimonial:
   testimonial_slider:
     # slider item loop
     - name : "John Wakahiu"
-      image : "images/clients/client1.jpg"
-      designation : "CEO, FriendsWhoWrite"
+      image : "images/clients/client1.png"
+      designation : "Founder, FriendsWhoWrite"
       content : "We are pleased to work with ThinkHeart as a go-to solution for all our designs. 
       No other company captures our thoughts as precisely as ThinkHeart. Ooh, and their prices are arguably the best."
                 
     # slider item loop
-    - name : "Peter Parker"
-      image : "images/clients/client2.jpg"
-      designation : "CEO, RANDOM COMPANY"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
-                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+    - name : "Edwin Otieno"
+      image : "images/clients/client2.jpeg"
+      designation : "CEO & Founder, Lwitsan Consultants"
+      content : "ThinkHeart took our idea and captured it into a wonderful design for one of our products. We are glad to have found you."
                 
     # slider item loop
-    - name : "Jessica Jones"
-      image : "images/clients/client3.jpg"
-      designation : "CEO, RANDOM COMPANY"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
-                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+    - name : "Charles Kuria"
+      image : "images/clients/client3.jpeg"
+      designation : "CEO & Founder, Kushdee Entertainment"
+      content : "I could not believe it when I saw the results. ThinkHeart designed my poster and captured my services so accurately. I highly recommend them for any designs."
 
 
 ######################### funfacts #############################3
@@ -268,25 +271,25 @@ funfacts:
     # funfacts item loop
     - name : "HANDS TO WORK"
       image : "images/icons/works.png"
-      count : "10"
+      count : "1"
       
     # funfacts item loop
     - name : "HAPPY CLIENTS"
       image : "images/icons/happy.png"
-      count : "20"
+      count : "9"
       
     # funfacts item loop
     - name : "FINISHED PROJECT"
       image : "images/icons/project.png"
-      count : "25"
+      count : "17"
       
     # funfacts item loop
     - name : "CUPS OF COFFEE"
       image : "images/icons/coffee.png"
-      count : "15"
+      count : "5"
 
 
 ############################## contact ###########################
 contact:
   enable : true
-  title : "SAY HELLO!"
+  title : "Let's Talk!"
