@@ -242,7 +242,7 @@ portfolio:
 ################################# Testimonial #########################33
 testimonial:
   enable : true
-  title : "TESTIMONIALS"
+  title : "What Others Say:"
   testimonial_slider:
     # slider item loop
     - name : "John Wakahiu"
